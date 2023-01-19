@@ -1,4 +1,4 @@
-function calculate_fibo1() {
+function calculate_fibo() {
     var user_input = document.getElementById("userinput").value;
     var result = fiborec(user_input);
     document.getElementById("fibo_result").innerHTML = result;
