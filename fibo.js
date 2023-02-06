@@ -1,6 +1,6 @@
 function calculate_fibo() {
     var user_input = document.getElementById("userinput").value;
-    var result = fiboloop(user_input);
+    var result = getNthPrime(user_input);
     document.getElementById("fibo_result").innerHTML = result;
 }
 
